@@ -7,9 +7,9 @@ Nicolás Gálvez Fuenzalida; Artista Visual, (Santiago, Chile 2003), me especial
 ...
 
 ## ARTISTAS REFERENTES
-- 
-- 
-- 
+- Anselm Kiefer 
+- Stanley Donwood
+- José Balmes
 
 ## TECNOLOGÍAS
 - Monitores CRT
