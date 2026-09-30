@@ -1,0 +1,252 @@
+int patitaLed = 9;
+
+
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(patitaLed, OUTPUT);
+
+
+
+
+}
+
+void loop() {
+
+fin();
+
+a();esp();l();
+_();
+t();esp();o();esp();r();esp();o(); 
+_();
+s();esp();i(); 
+_();
+n(); esp();o(); 
+_();
+e();esp();s(); 
+_();
+p();esp();o();esp();r(); 
+_();
+l();esp();o();esp();s(); 
+_();
+c();esp();u();esp();e();esp();r();esp();n();esp();o();esp();s(); 
+_();
+d();esp();i();esp();f();esp();i();esp();c();esp();i();esp(); l(); 
+_();
+l();esp();l();esp();e();esp();v();esp(); a();esp();r();esp(); l();esp();o(); 
+_();
+ a();esp();r();esp();r();esp();a();esp();s();esp();t();esp();r();esp();a();esp();n();esp();d();esp();o(); 
+ _(); 
+ a();esp();l();
+ _();
+ i();esp();n();esp();f();esp();i();esp();e();esp();r();esp();n();esp();o();
+fin();
+
+
+
+
+}
+
+
+void punto(){
+digitalWrite(patitaLed, HIGH);
+delay(150); 
+digitalWrite(patitaLed, LOW);
+delay(500);
+
+
+}
+
+void ralla(){
+digitalWrite(patitaLed, HIGH);
+delay(1000);
+digitalWrite(patitaLed, LOW);
+delay(500);
+
+
+
+}
+
+//PARA RECONOCER INICIO Y FINAL DE LA FRASE
+
+void flash(){
+digitalWrite(patitaLed, HIGH);
+delay(50);
+digitalWrite(patitaLed, LOW);
+delay(10);
+
+}
+
+void fin(){
+delay(1000);
+  for (int i = 0; i < 30; i++) {
+    flash();
+  }
+delay(1000);
+
+
+}
+
+//ABECEDARIO
+
+void a(){
+   punto();
+   ralla();
+}
+void b(){
+   ralla(); 
+   punto(); 
+   punto(); 
+   punto();
+
+}
+void c(){
+   ralla();
+   punto();
+   ralla();
+   punto();
+}
+void d(){
+  ralla();
+  punto();
+  punto();
+}
+void e(){
+   punto();
+}
+void f(){
+   punto();
+   punto();
+   ralla();
+}
+void g(){
+   ralla();
+   ralla();
+}
+void h(){
+   punto();
+   punto();
+   punto();
+   punto();
+}
+void i(){
+   punto();
+   punto();
+}
+void j(){
+   punto();
+   ralla();
+   ralla();
+   ralla();
+}
+void k(){
+   ralla();
+   punto();
+   ralla();
+}
+void l(){
+   punto();
+   ralla();
+   punto();
+   punto();
+}
+void m(){
+   ralla();
+   ralla();
+}
+void n(){
+   ralla();
+   punto();
+}
+void o(){
+   ralla();
+   ralla();
+   ralla();
+
+
+}
+void p(){
+ punto();
+ ralla();
+ ralla();
+ punto();
+
+}
+void q(){
+ ralla();
+ ralla(); 
+ punto();
+ ralla();
+
+}
+void r(){
+
+ punto(); 
+ ralla(); 
+ punto();
+}
+void s(){
+
+ punto();
+ punto();
+ punto();
+}
+void t(){
+ ralla();
+
+}
+void u(){
+ punto();
+ punto(); 
+ ralla();
+
+}
+void v(){
+ punto();
+ punto();
+ punto(); 
+ ralla();
+
+}
+void w(){
+ punto(); 
+ ralla(); 
+ ralla();
+
+}
+void x(){
+ ralla(); 
+ punto();
+ punto(); 
+ ralla();
+
+}
+void y(){
+ ralla(); 
+ punto(); 
+ ralla(); 
+ ralla();
+
+}
+void z(){
+ ralla();
+ ralla(); 
+ punto(); 
+ punto();
+
+}
+
+//ESPACIO
+
+void _(){
+
+delay(1000);
+
+}
+
+//DISTINCIÓN ENTRE LETRAS
+
+void esp(){
+delay(100);
+
+}
